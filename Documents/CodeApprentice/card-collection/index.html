@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Football Card Collection</title>
+        <style>
+            #container{
+                display: flex;
+            }
+            .card{
+            background-color: #005758;
+            width: 300px;
+            height: 500px;
+            border: solid black 10px;
+            box-shadow: 3px 3px 6px 1px rgba(0, 0, 0, 0.36);
+            border-radius: 5px;
+
+            }
+
+            .name{
+            background-color: #F3F3F3;
+            width: 175px;
+            height: 40px;
+            margin-left: 62.5px;
+            margin-top: 20px;
+            border-radius: 10px;
+            }
+
+            .carson{
+                font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-size: 25px;
+                margin-left: 17px;
+                padding-top: 5px;
+            }
+
+            .image{
+                padding-left: 25px;
+                padding-top: 18px;
+            }
+
+            .info{
+                height: 225px;
+                width: 245px;
+                background-color: #F3F3F3;
+                border:solid black 5px;
+                margin-left: 20px;
+                margin-top: 7px;
+                padding-left: 5px;
+            }
+
+            .stats{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            .card2{
+                background-color: #005758;
+            width: 300px;
+            height: 500px;
+            border: solid black 10px;
+            box-shadow: 3px 3px 6px 1px rgba(0, 0, 0, 0.36);
+            border-radius: 5px;
+            margin-left: 50px;
+            }
+
+            .name2{
+                background-color: #F3F3F3;
+            width: 175px;
+            height: 40px;
+            margin-left: 62.5px;
+            margin-top: 20px;
+            border-radius: 10px;
+            }
+
+            .nelson{
+                font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-size: 25px;
+                margin-left: 11px;
+                padding-top: 5px;
+            }
+
+            .image2{
+                padding-left: 25px;
+                padding-top: 18px;
+            }
+
+            .info2{
+                height: 225px;
+                width: 245px;
+                background-color: #F3F3F3;
+                border:solid black 5px;
+                margin-left: 20px;
+                margin-top: 7px;
+                padding-left: 5px;
+            }
+
+            .stats2{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            .card3{
+                background-color: #005758;
+            width: 300px;
+            height: 500px;
+            border: solid black 10px;
+            box-shadow: 3px 3px 6px 1px rgba(0, 0, 0, 0.36);
+            border-radius: 5px;
+            margin-left: 50px;
+            }
+
+            .name3{
+                background-color: #F3F3F3;
+            width: 175px;
+            height: 40px;
+            margin-left: 62.5px;
+            margin-top: 20px;
+            border-radius: 10px;
+            }
+
+            .alshon{
+                font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-size: 25px;
+                margin-left: 16px;
+                padding-top: 5px;
+            }
+
+            .image3{
+                padding-left: 25px;
+                padding-top: 18px;
+            }
+
+            .info3{
+                height: 225px;
+                width: 245px;
+                background-color: #F3F3F3;
+                border:solid black 5px;
+                margin-left: 20px;
+                margin-top: 7px;
+                padding-left: 5px;
+            }
+
+            .stats3{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            .card4{
+                background-color: #005758;
+            width: 300px;
+            height: 500px;
+            border: solid black 10px;
+            box-shadow: 3px 3px 6px 1px rgba(0, 0, 0, 0.36);
+            border-radius: 5px;
+            margin-left: 50px;
+            }
+
+            .name4{
+                background-color: #F3F3F3;
+            width: 175px;
+            height: 40px;
+            margin-left: 62.5px;
+            margin-top: 20px;
+            border-radius: 10px;
+            }
+
+            .chris{
+                font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-size: 25px;
+                margin-left: 34px;
+                padding-top: 5px;
+            }
+
+            .image4{
+                padding-left: 25px;
+                padding-top: 18px;
+            }
+
+            .info4{
+                height: 225px;
+                width: 245px;
+                background-color: #F3F3F3;
+                border:solid black 5px;
+                margin-left: 20px;
+                margin-top: 7px;
+                padding-left: 5px;
+            }
+
+            .stats4{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            .card5{
+                background-color: #005758;
+            width: 300px;
+            height: 500px;
+            border: solid black 10px;
+            box-shadow: 3px 3px 6px 1px rgba(0, 0, 0, 0.36);
+            border-radius: 5px;
+            margin-top: 50px;
+            }
+
+            .name5{
+                background-color: #F3F3F3;
+            width: 175px;
+            height: 40px;
+            margin-left: 62.5px;
+            margin-top: 20px;
+            border-radius: 10px;
+            }
+
+            .jay{
+                font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-size: 25px;
+                margin-left: 45px;
+                padding-top: 5px;
+            }
+
+            .image5{
+                padding-left: 25px;
+                padding-top: 18px;
+            }
+
+            .info5{
+                height: 225px;
+                width: 245px;
+                background-color: #F3F3F3;
+                border:solid black 5px;
+                margin-left: 20px;
+                margin-top: 7px;
+                padding-left: 5px;
+            }
+
+            .stats5{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            
+            #row2{
+                display:flex;
+            }
+
+            .card6{
+                background-color: #005758;
+            width: 300px;
+            height: 500px;
+            border: solid black 10px;
+            box-shadow: 3px 3px 6px 1px rgba(0, 0, 0, 0.36);
+            border-radius: 5px;
+            margin-top: 50px;
+            margin-left: 50px;
+            }
+            
+            .name6{
+                background-color: #F3F3F3;
+            width: 175px;
+            height: 40px;
+            margin-left: 62.5px;
+            margin-top: 20px;
+            border-radius: 10px;
+            }
+
+            .jason{
+                font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-size: 25px;
+                margin-left: 29px;
+                padding-top: 5px;
+            }
+            
+            .image6{
+                padding-left: 25px;
+                padding-top: 18px;
+            }
+
+            .info6{
+                height: 225px;
+                width: 245px;
+                background-color: #F3F3F3;
+                border:solid black 5px;
+                margin-left: 20px;
+                margin-top: 7px;
+                padding-left: 5px;
+            }
+
+            .stats6{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+        </style>
+    </head>
+    <body>
+        <section id="container">
+        <div class="card">
+            <div class="name">
+                <h3 class="carson">Carson Wentz</h3>
+            </div>
+
+            <img class="image" alt="Carson Wentz" src="https://usatftw.files.wordpress.com/2017/12/carson-wentz.jpg?w=1000&h=600&crop=1" width=250px; height=160px;>
+
+            <div class="info">
+                <p class="stats">Position: Quarterback<br>
+                Team: Philadelphia Eagles (2016-Present)<br>
+                Number: 11<br>
+                Height: 6'5"<br>
+                Birthday: December 30, 1992<br>
+                <br>Quote: "I'm a competitive son of a gun. I don't like losing. I want to be the best out there. I want to lead the troops."</p>
+            </div>
+        </div>
+        <div class="card2">
+                <div class="name2">
+                    <h3 class="nelson">Nelson Agholor</h3>
+                </div>
+    
+                <img class="image2" alt="Nelson Agholor" src="https://usateagleswire.files.wordpress.com/2018/08/usatsi_10588608.jpg?w=1000&h=600&crop=1" width=250px; height=160px;>
+    
+                <div class="info2">
+                    <p class="stats2">Position: Wide Receiver<br>
+                    Team: Philadelphia Eagles (2015-Present)<br>
+                    Number: 13<br>
+                    Height: 6'0"<br>
+                    Birthday: May 24, 1993<br>
+                    <br>Quote: "When change is necessary, not to change is destructive."</p>
+                </div>
+            </div>
+            <div class="card3">
+                    <div class="name3">
+                        <h3 class="alshon">Alshon Jeffery</h3>
+                    </div>
+        
+                    <img class="image3" alt="Alshon Jeffery" src="https://nbcprofootballtalk.files.wordpress.com/2018/07/gettyimages-914347648-e1532619855460.jpg?w=560&h=316&crop=1" width=250px; height=160px;>
+        
+                    <div class="info3">
+                        <p class="stats3">Position: Wide Receiver<br>
+                        Team: Philadelphia Eagles (2017-Present), Chicago Bears (2012-2016)<br>
+                        Number: 17<br>
+                        Height: 6'3"<br>
+                        Birthday: February 14, 1990<br>
+                        <br>Quote: "I guarantee you we are going to win the Super Bowl next year."</p>
+                    </div>
+                </div>
+                <div class="card4">
+                        <div class="name4">
+                            <h3 class="chris">Chris Long</h3>
+                        </div>
+            
+                        <img class="image4" alt="Chris Long" src="https://usatftw.files.wordpress.com/2017/11/xxx_img_usatsi_10328481_1_1_j7k8dc43.jpg?crop=0px%2C0px%2C3534px%2C2119px&resize=1000%2C600" width=250px; height=160px;>
+            
+                        <div class="info4">
+                            <p class="stats4">Position: Defensive End<br>
+                            Team: Philadelphia Eagles (2017-Present), New England Patriots (2016), St. Louis Rams (2008-2015)<br>
+                            Number: 56<br>
+                            Height: 6'3"<br>
+                            Birthday: March 28, 1985<br>
+                            <br>Quote: "We just want to play one more football game."</p>
+                        </div>
+                    </div>
+                </section>
+                <section id="row2">
+                    <div class="card5">
+                            <div class="name5">
+                                <h3 class="jay">Jay Ajayi</h3>
+                            </div>
+                
+                            <img class="image5" alt="Jay Ajayi" src="https://clutchpoints.com/wp-content/uploads/2018/05/Jay-Ajayi-denies-L.A.-Mansion-owner_s-accusations-of-vandalism.jpg" width=250px; height=160px;>
+                
+                            <div class="info5">
+                                <p class="stats5">Position: Running Back<br>
+                                Team: Philadelphia Eagles (2017-Present), Miami Dolphins (2015-2017)<br>
+                                Number: 36<br>
+                                Height: 6'0"<br>
+                                Birthday: June 15, 1993<br>
+                                <br>Quote: "I woke up today as a Philadelphia Eagle and I’m very excited about that."</p>
+                            </div>
+                        </div>
+                        <div class="card6">
+                                <div class="name6">
+                                    <h3 class="jason">Jason Kelce</h3>
+                                </div>
+                    
+                                <img class="image6" alt="Jason Kelce" src="https://usatftw.files.wordpress.com/2018/02/usp_nfl__super_bowl_lii-philadelphia_eagles_vs_new_97154540-e1518109591414.jpg?w=1000&h=600&crop=1" width=250px; height=160px;>
+                    
+                                <div class="info6">
+                                    <p class="stats6">Position: Center<br>
+                                    Team: Philadelphia Eagles (2011-Present)<br>
+                                    Number: 62<br>
+                                    Height: 6'3"<br>
+                                    Birthday: November 5, 1987<br>
+                                    <br>Quote: "We're from Philly, f------ Philly, no one likes us, we don't care. E-A-G-L-E-S, Eagles!"</p>
+                                </div>
+                            </div>
+                    </section>
+    </body>
+</html>
